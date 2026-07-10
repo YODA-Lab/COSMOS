@@ -4,8 +4,9 @@
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.11165-b31b1b)](https://arxiv.org/abs/2605.11165)
 
-This repository holds the research code for the paper *COSMOS: Model-Agnostic Personalized Federated Learning with Clustered Server Models and Pseudo-Label-Only Communication* by Ben Rachmut, Luise Ge, Ning Zhang, William Yeoh, and Yevgeniy Vorobeychik (Washington University in St. Louis).
+This repository holds the research code for the paper [*COSMOS: Model-Agnostic Personalized Federated Learning with Clustered Server Models and Pseudo-Label-Only Communication*](https://arxiv.org/abs/2605.11165) by Ben Rachmut, Luise Ge, Ning Zhang, William Yeoh, and Yevgeniy Vorobeychik (Washington University in St. Louis).
 
 > **Naming note:** the paper calls the method **COSMOS**. The code calls it **`MAPL`** (`AlgorithmSelected.MAPL`). They are the same algorithm.
 
@@ -172,7 +173,18 @@ This reads the `results/` subfolders, computes per-method accuracy statistics (w
 
 ## Citation
 
-TODO
+If you use this work, please cite the paper ([arXiv:2605.11165](https://arxiv.org/abs/2605.11165)):
+
+```bibtex
+@article{rachmut2026cosmos,
+  title   = {COSMOS: Model-Agnostic Personalized Federated Learning with
+             Clustered Server Models and Pseudo-Label-Only Communication},
+  author  = {Rachmut, Ben and Ge, Luise and Zhang, Ning and
+             Yeoh, William and Vorobeychik, Yevgeniy},
+  journal = {arXiv preprint arXiv:2605.11165},
+  year    = {2026}
+}
+```
 
 
 ## Acknowledgements
