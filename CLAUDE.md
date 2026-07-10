@@ -85,6 +85,5 @@ server set) → `create_clients()` builds the entities → the FL loop alternate
 
 - `entities.py` is huge; use symbol search (find the `class`/`def`) rather than reading top-to-bottom.
 - Two divergent requirements files exist (GPU vs CPU); `requirements.txt` is UTF-16.
-- `old_graphs_python_files/` and `old folders/` are dead legacy plotting code — do not extend them;
-  `read_json.py` is the current analysis pipeline.
+- `read_json.py` is the current analysis pipeline for turning results into figures/CSVs.
 - Git history messages are uninformative ("before changing top5"); don't rely on them for intent.

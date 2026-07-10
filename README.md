@@ -67,7 +67,6 @@ The advantage holds across mixes of client architectures on CIFAR-100, including
 | [read_json.py](read_json.py) | Standalone analysis tool. Reads the JSON results and produces the paper's figures (PDF) and stats (CSV). |
 | [requirements.txt](requirements.txt) | Dependencies for GPU (CUDA 12.1). |
 | [new_require.txt](new_require.txt) | Alternate dependencies for CPU. |
-| `old_graphs_python_files/` | Legacy plotting scripts, kept for reference. Superseded by `read_json.py`. |
 
 ## Installation
 
